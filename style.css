@@ -6,48 +6,58 @@
     color: #F7F7F7;                              
 }
 
+#root {
+    background-image: url(./380_page-0007.jpg);
+    background-size: contain;
+}
+
+#app-content-wrapper {
+    background: rgba(45, 42, 42, 0.66);
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .kisamtug {
     position: relative;
     
     background: rgb(29, 27, 27);
     background: rgba(45, 42, 42, 0.66);
-
-
-
 }
 .ebaniyotstup {
-
     margin-left: 20%;
 }
 
-.background {
-
-    background-image: url(./380_page-0007.jpg);
-    background-size: cover;
-
-}
-
 .back2 {
-
     margin-left: 10%;
     margin-right: 10%;
-
-   
-
 }
 .biggrid{
-
     display: grid;
+    grid-auto-flow: column;
 
-    grid-template-columns: 70px 80px 70px 480px 70px 80px 70px;
     padding: 10px;
-    grid-gap: 1vw;
-
     margin-left: 2%;
-
     align-items: center;
+    justify-content: space-between;
 }
 
+.biggrid > div {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+}
+
+
+.social-network-link {
+    width: 50px;
+    height: 50px;
+}
+
+.social-network-link > img {
+    width: 50px;
+    height: 50px;
+}
 
 
 
@@ -97,68 +107,15 @@
 
 }
 
-.Work {
-    width: 400;
-    height: 27px;
-    
-    
-
+.nav-link {
     text-align: center;
-
-    /* margin-top: 5px; */
-    padding: 7px 16px;
-
-
-    transition: all 0.3;
-
+    transition: all 0.3s;
 }
-.Work:hover {
+
+.nav-link:hover {
     cursor: pointer;
     text-decoration: underline;
 }
-
-.About {
-    width: 400;
-    height: 27px;
-                                                
-    
-    
-    text-align: center;
-
-    /* margin-top: 5px; */
-
-    padding: 7px 16px;
-
-    transition: all 0.3;
-
-}
-.About:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-
-.Contact {
-    width: 400;
-    height: 27px;
-    
-
-
-    text-align: center;
-
-    /* margin-top: 5px; */
-
-    padding: 7px 16px;
-    transition: all 0.3;
-}
-.Contact:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-                                     /* блок 2 */
-
-
 
 .item {
     
@@ -182,14 +139,6 @@
     
     font-weight: 200;
     font-size: 32px;
-
-    
-
-   
-
-
-    
-    
 }
 
 
@@ -239,33 +188,10 @@
 
 .gridphoto {
     display: grid;
-
-   
-
-    grid-template-columns: auto auto auto;
-    grid-gap: 3vw;
-
-    margin-left: 5%;
-    margin-right: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
-.Photo {
-
-    background-image:url(./gerogia.jpg) ;
-    
-    height: 360px;
-    
-
-    
-}
-
-.photoright {
-
-    margin-top: 10%;
-    
-    background-image: url(./photo_2023-01-14_12-03-39.jpg);
-
-}
 
 .text {
 
@@ -291,36 +217,6 @@
     text-decoration: underline;
 }
 
-.Photo2 {
-
-    
-    background-image:url(./asdasfasd.jpg) ;
-    
-   
-}
-
-.photo3 {
-    background-image:url(./arm.jpg) ;
-
-    margin-top: 10%;
-    
-
-}
-
-.photo4 {
-
-    background-image: url(./telka.jpg);
-    
-
-}
-
-.photo5 {
-
-    background-image: url(./jopka.jpg);
-    margin-top: 10%;
-
-}
-
 .text2 {
 
 
@@ -338,19 +234,39 @@
     color: #757575;
 }
 
+.works-card {
+    height: 300px;
+    width: 225px;
+
+    text-align: center;
+}
+
+.works-card-photo {
+    width: 100%;
+    height: 250px;
+}
+
+.works-card-photo > img {
+    width: 100%;
+    height: 250px;
+}
+
+.works-card > .text {
+    width: 100%;
+    text-align: center;
+}
 
 .gridtext {
-
     display: grid;
-
-   
-
-    grid-template-columns: 256px 704px;
-    grid-gap: 1vw;
-    margin-left: 5%;
+    grid-template-columns: 1fr 1fr;
     margin-top: 50px;
-    
+}
 
+.pavel-introduction > h2 {
+    margin-bottom: 10px;
+}
+.pavel-introduction > p {
+    margin-bottom: 25px;
 }
 
 .aboutme {
@@ -407,6 +323,15 @@
     margin-top: 50px;
     
 
+}
+
+
+@media screen and (max-width: 900px) {
+    .gridphoto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }  
 }
 
 
