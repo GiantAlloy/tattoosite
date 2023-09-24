@@ -1,0 +1,413 @@
+
+
+
+* {
+    font-family: 'Noto Mono', sans-serif; 
+    color: #F7F7F7;                              
+}
+
+.kisamtug {
+    position: relative;
+    
+    background: rgb(29, 27, 27);
+    background: rgba(45, 42, 42, 0.66);
+
+
+
+}
+.ebaniyotstup {
+
+    margin-left: 20%;
+}
+
+.background {
+
+    background-image: url(./380_page-0007.jpg);
+    background-size: cover;
+
+}
+
+.back2 {
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+   
+
+}
+.biggrid{
+
+    display: grid;
+
+    grid-template-columns: 70px 80px 70px 480px 70px 80px 70px;
+    padding: 10px;
+    grid-gap: 1vw;
+
+    margin-left: 2%;
+
+    align-items: center;
+}
+
+
+
+
+
+.inst {
+
+    background-image: url(./instagram.png);
+
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+
+}
+.inst:hover {
+    cursor: pointer;
+
+}
+
+.tg {
+    background-image: url(./telegram.png);
+
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+}
+
+.tg:hover {
+    
+    cursor: pointer;
+}
+
+
+.youtube {
+    background-image: url(./youtube.png);
+
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+}
+
+.youtube {
+
+    cursor: pointer;
+
+}
+
+.Work {
+    width: 400;
+    height: 27px;
+    
+    
+
+    text-align: center;
+
+    /* margin-top: 5px; */
+    padding: 7px 16px;
+
+
+    transition: all 0.3;
+
+}
+.Work:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.About {
+    width: 400;
+    height: 27px;
+                                                
+    
+    
+    text-align: center;
+
+    /* margin-top: 5px; */
+
+    padding: 7px 16px;
+
+    transition: all 0.3;
+
+}
+.About:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.Contact {
+    width: 400;
+    height: 27px;
+    
+
+
+    text-align: center;
+
+    /* margin-top: 5px; */
+
+    padding: 7px 16px;
+    transition: all 0.3;
+}
+.Contact:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+                                     /* блок 2 */
+
+
+
+.item {
+    
+    
+
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 2%;
+
+    font-weight: 400;
+    font-size: 64px;
+
+}
+
+.item2 {
+   
+    padding: 10px;
+
+    margin-left: 2%;
+
+    
+    font-weight: 200;
+    font-size: 32px;
+
+    
+
+   
+
+
+    
+    
+}
+
+
+/* 
+    Блок фото */
+
+ .littlegrid {
+    display: grid;
+    
+    grid-template-columns: 200px 100px;
+
+    padding: 10px;
+    grid-gap: 3vw;
+
+    margin-left: 2%;
+    margin-top: 20px;
+
+ }       
+ 
+ .Featuredwork {
+    
+    height: 24px;
+
+
+    font-size: 15px;
+ }
+
+ .years {
+   
+    height: 24px;
+
+    
+    font-size: 15px;
+   
+    ;
+ }
+
+ /* Сетка под фото и фото */
+
+
+.defphoto {
+    width: 320px;
+    height: 363px;
+
+    background-size: cover;
+}
+
+.gridphoto {
+    display: grid;
+
+   
+
+    grid-template-columns: auto auto auto;
+    grid-gap: 3vw;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Photo {
+
+    background-image:url(./gerogia.jpg) ;
+    
+    height: 360px;
+    
+
+    
+}
+
+.photoright {
+
+    margin-top: 10%;
+    
+    background-image: url(./photo_2023-01-14_12-03-39.jpg);
+
+}
+
+.text {
+
+
+    width: 320px;
+    height: 32px;
+
+    
+
+    
+    text-align:center;
+     
+    /* padding-top: 10px; */
+    
+    
+
+
+}
+
+.text:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Photo2 {
+
+    
+    background-image:url(./asdasfasd.jpg) ;
+    
+   
+}
+
+.photo3 {
+    background-image:url(./arm.jpg) ;
+
+    margin-top: 10%;
+    
+
+}
+
+.photo4 {
+
+    background-image: url(./telka.jpg);
+    
+
+}
+
+.photo5 {
+
+    background-image: url(./jopka.jpg);
+    margin-top: 10%;
+
+}
+
+.text2 {
+
+
+    width: 240px;
+    height: 32px;
+
+   
+
+    border-radius: 0% 0% 10% 10%;
+    text-align:left;
+    
+     
+    
+
+    color: #757575;
+}
+
+
+.gridtext {
+
+    display: grid;
+
+   
+
+    grid-template-columns: 256px 704px;
+    grid-gap: 1vw;
+    margin-left: 5%;
+    margin-top: 50px;
+    
+
+}
+
+.aboutme {
+
+    width: 240px;
+    height: 32px;
+
+    
+
+    border-radius: 0% 0% 10% 10%;
+    text-align:left;
+    
+     
+    
+
+
+
+}
+
+.otstup {
+    margin-top: 120px;
+
+}
+
+.otstup2 {
+    margin-top: 175px;
+
+}
+
+.image {
+
+    margin-left: 13%;
+
+    margin-top: 280px;
+    width: 800px;
+    height: 400px;
+
+    background-size:cover;
+    background-image: url(./22\ -\ XQE735u.jpg);
+
+}
+
+.gridtext2 {
+
+    display: grid;
+
+   
+
+    grid-template-columns: 240px 240px;
+    grid-gap: 3vw;
+
+    margin-left: 10%;
+
+    margin-top: 50px;
+    
+
+}
+
+
+
