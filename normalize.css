@@ -52,7 +52,8 @@ ul {
 }
 
 a {
-  background: transparent
+  background: transparent;
+  text-decoration: none;
 }
 
 a:active,
